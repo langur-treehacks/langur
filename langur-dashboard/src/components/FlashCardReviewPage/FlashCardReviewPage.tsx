@@ -13,7 +13,8 @@ const FlashCardReviewPage: React.FC = () => {
     const getWords = () => {
         const words = {
             "Gracias": "Thank you",
-            "Hola": "Hello"
+            "Hola": "Hello",
+            "Adios": "Goodbye"
         }
         return words;
     }
