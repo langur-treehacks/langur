@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Fonts */
+@font-face {
+    font-family: 'Poligon';
+    src: url('../public/fonts/Poligon Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Poligon-Bold';
+  src: url('../public/fonts/Poligon Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Poligon-Light';
+  src: url('../public/fonts/Poligon Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Poligon-Medium';
+  src: url('../public/fonts/Poligon Medium.otf') format('opentype');
+}
+    
+body {
+    font-family: 'Poligon-Light';
+}   
