@@ -3,7 +3,43 @@
 @tailwind utilities;
 
 .mainScreenAfterNavbar {
-    @apply flex-grow grid grid-cols-12 relative overflow-hidden h-screen w-screen;
+    @apply flex flex-col justify-start items-center relative overflow-hidden h-screen w-screen;
     width: 100%;  
     background-color: #84cdee;
+}
+
+.arrowContainer {
+    @apply w-full justify-center items-center flex;
+    height: 300px;
+}
+.arrow {
+    @apply h-16 w-16;
+}
+.welcomeHeader {
+    @apply flex flex-row w-full items-center justify-center pt-20;
+}
+.welcomeSubHeader {
+    @apply pt-10 text-2xl font-extrabold;
+}
+
+.whiteLetter {
+    @apply text-white text-8xl font-extrabold;
+}
+.blackLetter {
+    @apply text-black text-8xl font-extrabold;
+}
+.spacer {
+    width: 25px;
+}
+
+.reviewSection {
+    @apply flex flex-row justify-center items-start relative overflow-hidden pt-28;
+    width: 100%;
+}
+.btnShowFlashcards {
+    @apply rounded-3xl border-white border-4 px-20 py-5 text-2xl font-extrabold mt-28 text-white;
+    background-color: #000000;
+}
+.btnShowFlashcards:hover {
+    @apply text-black bg-white;
 }

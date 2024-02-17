@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flashCardFront {
+    @apply rounded-xl flex flex-col justify-center items-center;
+    height: 300px;
+    width: 450px;
+    background-color: #50b8e7;
+}
+.targetWord {
+    @apply text-2xl font-extrabold text-white;
+}
+
+.flashCardBack {
+    @apply rounded-xl flex flex-col justify-center items-center;
+    height: 300px;
+    width: 450px;
+    background-color: #ffffff;
+}
+.translatedWord {
+    @apply text-2xl font-extrabold text-black;
+}
+
+.cardFlipContainer {
+    @apply flex justify-center items-center w-full;
+}

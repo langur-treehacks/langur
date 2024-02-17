@@ -18,16 +18,9 @@ const WelcomePage: React.FC = () => {
             <Navbar/>
             <div className={styles.mainScreenAfterNavbar}>
                 <div className={styles.welcomeHeader}>
-                    <p className={styles.blackLetter}>W</p>
-                    <p className={styles.whiteLetter}>e</p>
-                    <p className={styles.blackLetter}>l</p>
-                    <p className={styles.whiteLetter}>c</p>
-                    <p className={styles.blackLetter}>o</p>
-                    <p className={styles.whiteLetter}>m</p>
-                    <p className={styles.blackLetter}>e</p>
+                    <p className={styles.blackLetter}>Welcome</p>
                     <div className={styles.spacer}></div>
-                    <p className={styles.blackLetter}>t</p>
-                    <p className={styles.whiteLetter}>o</p>
+                    <p className={styles.whiteLetter}>to</p>
                     <div className={styles.spacer}></div>
                     <p className={styles.blackLetter}>lang</p>
                     <p className={styles.whiteLetter}>ur</p>
