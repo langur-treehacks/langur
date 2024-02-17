@@ -15,6 +15,9 @@ export const Navbar: React.FC = () => {
             <div className={styles.homeButton} onClick={goToHomePage}>
                 <p className={styles.firstHalfHomeButtonText}>lang</p><p className={styles.secondHalfHomeButtonText}>ur</p>
             </div>
+            <div>
+                Profile
+            </div>
         </nav>
     );
 }

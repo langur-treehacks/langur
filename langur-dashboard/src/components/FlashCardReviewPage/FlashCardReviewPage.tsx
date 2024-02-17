@@ -20,10 +20,8 @@ const FlashCardReviewPage: React.FC = () => {
     }
     const words = getWords();
 
-    const navigate = useNavigate();
-
     const goToArticle = () => {
-        navigate('https://www.google.com/');
+        window.location.href = "https://www.google.com/";
     }
 
     const [currWord, setCurrWord] = useState(0);
