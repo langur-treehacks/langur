@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mainScreenAfterNavbar {
+    @apply flex flex-col relative overflow-hidden h-screen w-screen items-center;
+    width: 100%;  
+    background-color: #84cdee;
+}
+
+.welcomeHeader {
+    @apply flex flex-row w-full items-center justify-center pt-20;
+}
+.welcomeSubHeader {
+    @apply pt-10 text-2xl font-extrabold;
+}
+
+.whiteLetter {
+    @apply text-white text-8xl font-extrabold;
+}
+.blackLetter {
+    @apply text-black text-8xl font-extrabold;
+}
+.spacer {
+    width: 50px;
+}
+
+.welcomeLangurImage {
+    @apply h-96 w-96 p-10;
+}
+.btnShowFlashcards {
+    @apply rounded-3xl border-white border-4 px-20 py-5 text-2xl font-extrabold mt-10 text-white;
+    background-color: #50b8e7;
+}
+.btnShowFlashcards:hover {
+    @apply text-black bg-white;
+}

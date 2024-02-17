@@ -7,6 +7,9 @@ const FlashCardReviewPage: React.FC = () => {
     return(
         <div>
             <Navbar/>
+            <div className={styles.mainScreenAfterNavbar}>
+
+            </div>
             <FlashCard/>
         </div>
     );

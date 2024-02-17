@@ -7,8 +7,11 @@
     background-color: #50b8e7;
 }
 .homeButton {
-    @apply text-4xl font-bold flex flex-row;
+    @apply text-6xl font-bold flex flex-row;
     font-family: 'Poligon-Bold';
+}
+.homeButton:hover {
+    @apply cursor-pointer;
 }
 
 .firstHalfHomeButtonText {

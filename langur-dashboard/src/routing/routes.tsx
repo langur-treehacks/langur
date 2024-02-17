@@ -1,11 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
-import React from "react";
 import FlashCardReviewPage from "../components/FlashCardReviewPage/FlashCardReviewPage";
+import WelcomePage from "../components/WelcomePage/WelcomePage";
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <FlashCardReviewPage/>
+        element: <WelcomePage/>
     },
     {
         path: "/flash-card-review",
