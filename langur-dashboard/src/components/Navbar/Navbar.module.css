@@ -20,3 +20,9 @@
 .secondHalfHomeButtonText {
     @apply text-black;
 }
+.profilePictureContainer {
+    @apply h-14 w-14 mr-10;
+}
+.profilePictureContainer:hover {
+    @apply cursor-pointer;
+}

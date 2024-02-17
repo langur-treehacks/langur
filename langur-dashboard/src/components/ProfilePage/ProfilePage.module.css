@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mainScreenAfterNavbar {
+    @apply flex flex-col relative overflow-hidden w-screen items-center;
+    width: 100%;  
+    background-color: #84cdee;
+}
+
+.profileContainer {
+    @apply bg-white my-20 p-20 flex flex-col;
+    width: 700px;
+}
+.profileHeader {
+    @apply text-4xl font-extrabold;
+}
+.dividerLine {
+    @apply border-t border-gray-500 my-5;
+}
+
+.imageContainer {
+    @apply flex flex-col justify-center items-center my-4;
+}
+.profileImage {
+    @apply h-40 w-40;
+}
+.userName {
+    @apply font-bold text-4xl mb-4;
+    text-align: center;
+}
+
+.statsHeader {
+    @apply text-3xl font-extrabold my-4;
+}
+
+.skillValueContainer {
+    @apply flex flex-row justify-between items-center p-5 bg-black text-white text-4xl font-extrabold text-center my-4;
+}
+.diamondImage {
+    @apply h-14 w-14;
+}
+
+.rowContainer {
+    @apply flex flex-row justify-between py-3;
+}
+.statName {
+    @apply text-lg font-bold;
+}
+.statValue {
+    @apply text-lg; 
+}
