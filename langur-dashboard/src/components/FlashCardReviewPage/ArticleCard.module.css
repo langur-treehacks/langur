@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.articleCardContainer {
+    @apply rounded-2xl border-2 h-full bg-white;
+    width: 370px;
+}
+
+.articleCardImage {
+    @apply w-full object-cover rounded-2xl;
+    max-height: 250px;
+}
+.articleCardHeader {
+    @apply text-lg font-bold mt-5;
+}
+.articleCardSummary {
+    @apply text-base m-5;
+}

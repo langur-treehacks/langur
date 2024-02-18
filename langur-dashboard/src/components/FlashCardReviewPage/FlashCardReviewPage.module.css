@@ -43,3 +43,41 @@
 .btnShowFlashcards:hover {
     @apply text-black bg-white;
 }
+
+.articlePicker {
+    @apply h-full w-full;
+    box-shadow: '2px solid black';
+    text-align: center;
+    margin: 'auto';
+}
+.articlePickerContent {
+    @apply absolute border-white border-4 rounded-2xl flex flex-col p-4;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%, -50%);
+    background-color: #50b8e7;
+}
+
+.pickerHeader {
+    @apply flex flex-row w-full items-center justify-center pt-8;
+}
+.pickerWhiteLetter {
+    @apply text-white text-4xl font-extrabold;
+}
+.pickerBlackLetter {
+    @apply text-black text-4xl font-extrabold;
+}
+.pickerSpacer {
+    width: 11px;
+}
+.pickerOptions {
+    @apply flex flex-row justify-between mt-7;
+}
+.closePicker {
+    @apply rounded-3xl border-white border-4 px-20 py-5 text-2xl font-extrabold mt-10 text-white;
+    background-color: #000000;
+}
+.btnShowFlashcards:hover {
+    @apply text-black bg-white;
+}

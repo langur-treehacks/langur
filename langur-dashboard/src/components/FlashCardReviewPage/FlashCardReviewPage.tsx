@@ -6,7 +6,8 @@ import leftArrow from "../../assets/images/left-arrow.png";
 import blackLeftArrow from "../../assets/images/black-left-arrow.png";
 import rightArrow from "../../assets/images/right-arrow.png";
 import blackRightArrow from "../../assets/images/black-right-arrow.png";
-import { useNavigate } from "react-router-dom";
+import { Modal, Fade } from "@mui/material";
+import ArticleCard from "./ArticleCard";
 
 const FlashCardReviewPage: React.FC = () => {
 
@@ -20,6 +21,9 @@ const FlashCardReviewPage: React.FC = () => {
     }
     const words = getWords();
 
+    const btnShowArticlePicker = () => {
+        setShowArticlePicker(true);
+    }
     const goToArticle = () => {
         window.location.href = "https://www.google.com/";
     }
@@ -29,6 +33,8 @@ const FlashCardReviewPage: React.FC = () => {
     const [showLeftArrow, setShowLeftArrow] = useState(true);
     const [mouseEnterRight, setMouseEnterRight] = useState(false);
     const [showRightArrow, setShowRightArrow] = useState(true);
+
+    const [showArticlePicker, setShowArticlePicker] = useState(false);
 
     useEffect(() => {
         if (currWord == 0)
@@ -130,10 +136,30 @@ const FlashCardReviewPage: React.FC = () => {
                         />
                     </div>
                 </div>
-                <button className={styles.btnShowFlashcards} onClick={goToArticle}>
+                <button className={styles.btnShowFlashcards} onClick={btnShowArticlePicker}>
                     I'm satisfied. Give me something to read!
                 </button>
             </div>
+            <Modal
+                open={showArticlePicker}
+                className={styles.articlePicker}
+            >
+                <Fade in={showArticlePicker}>
+                    <div className={styles.articlePickerContent}>
+                        <div className={styles.pickerHeader}>
+                            <p className={styles.pickerBlackLetter}>We thought you might like these</p>
+                            <div className={styles.pickerSpacer}></div>
+                            <p className={styles.pickerWhiteLetter}>articles...</p>
+                        </div>
+                        <div className={styles.pickerOptions}>
+                            <ArticleCard/>
+                            <ArticleCard/>
+                            <ArticleCard/>
+                        </div>
+                        <button className={styles.closePicker}>Not Right Now :-(</button>
+                    </div>
+                </Fade>
+            </Modal>
         </div>
     );
 }
