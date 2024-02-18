@@ -27,6 +27,9 @@ const WelcomePage: React.FC = () => {
     const goToFlashCardPage = () => {
         navigate('/flash-card-review');
     }
+    const goToPracticeChat = () => {
+        navigate('/practice');
+    }
 
     const updateSkillLevel = (event: any, newValue: number | number[]) => {
         setSkillLevel(newValue as number);
@@ -67,9 +70,15 @@ const WelcomePage: React.FC = () => {
                     <p className={styles.sampleSentenceHeader}>Sample Sentence:</p>
                     <p className={styles.sampleSentence}>{sampleSentences[(skillLevel-1) * 2]}</p>
                 </div>
-                <button className={styles.btnShowFlashcards} onClick={goToFlashCardPage}>
-                    Review my Vocab
-                </button>
+                <div className={styles.btnRow}>
+                    <button className={styles.btnShowFlashcards} onClick={goToFlashCardPage}>
+                        Review my Vocab
+                    </button>
+                    <button className={styles.btnPracticeChat} onClick={goToPracticeChat}>
+                        Let me Practice Speaking
+                    </button>
+                </div>
+
             </div>
         </div>
     );

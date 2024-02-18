@@ -51,10 +51,21 @@
     @apply text-lg text-black pt-2 px-5;
 }
 
+.btnRow {
+    @apply flex flex-row justify-center items-center;
+}
+
 .btnShowFlashcards {
-    @apply rounded-3xl border-white border-4 px-20 py-5 text-2xl font-extrabold mt-10 text-white;
+    @apply rounded-3xl border-white border-4 px-20 py-5 text-2xl font-extrabold mt-10 mx-2 text-white;
     background-color: #50b8e7;
 }
 .btnShowFlashcards:hover {
+    @apply text-black bg-white;
+}
+
+.btnPracticeChat {
+    @apply rounded-3xl border-white border-4 px-20 py-5 text-2xl font-extrabold mt-10 mx-2 text-white bg-black;
+}
+.btnPracticeChat:hover {
     @apply text-black bg-white;
 }
