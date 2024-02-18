@@ -13,7 +13,32 @@
 **FLUENCY.**
 
 # Key Features:
+1. Uses a grounded evaluation metric to measure your performance (LIX scoring algorithm)
+2. Application learns and adapts to individual learner's abilities
+3. Learning of language conveniently incorporated into daily workflow
+4. Reinforced learning of queries words through review quizzes 
 
 # Getting Started:
+## FrontEnd:
+## BackEnd:
+1. Clone the repository
+```sh
+https://github.com/langur-treehacks/llm.git
+```
+2. Set up .env file (refer to env_template.txt)
+
+3. Enter the directory
+```sh
+cd llm
+```
+4. Install the dependencies
+```sh
+pip install requirements.txt
+```
+5. Run the app
+```sh
+python ./app.py
+```
+
 
 # Project Gallery:
