@@ -9,25 +9,48 @@
 }
 
 .welcomeHeader {
-    @apply flex flex-row w-full items-center justify-center pt-20;
+    @apply flex flex-row w-full items-center justify-center pt-10;
 }
 .welcomeSubHeader {
-    @apply pt-10 text-2xl font-extrabold;
+    @apply text-2xl -mt-4 font-extrabold;
+}
+.welcomeSubSubHeader {
+    @apply pt-10 text-xl font-bold;
 }
 
 .whiteLetter {
-    @apply text-white text-8xl font-extrabold;
+    @apply text-white text-7xl font-extrabold;
 }
 .blackLetter {
-    @apply text-black text-8xl font-extrabold;
+    @apply text-black text-7xl font-extrabold;
 }
 .spacer {
-    width: 40px;
+    width: 30px;
 }
 
 .welcomeLangurImage {
-    @apply h-96 w-96 p-10;
+    @apply h-80 w-80 p-10;
 }
+
+.difficultySliderContainer {
+    @apply w-96 px-5 pt-1 bg-black rounded-full mt-6;
+}
+.difficultySlider {
+    color: #ffffff;
+}
+
+.sampleSentenceContainer {
+    @apply bg-white border-gray-500 rounded-2xl border-2 mt-10;
+    width: 50%;
+    height: 100px;
+}
+.sampleSentenceHeader {
+    @apply text-xl text-black pt-2 px-5 font-bold;
+}
+.sampleSentence {
+    @apply text-lg text-black pt-2 px-5;
+}
+
 .btnShowFlashcards {
     @apply rounded-3xl border-white border-4 px-20 py-5 text-2xl font-extrabold mt-10 text-white;
     background-color: #50b8e7;
