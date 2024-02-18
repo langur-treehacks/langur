@@ -24,6 +24,10 @@ const WelcomePage: React.FC = () => {
 
     const [skillLevel, setSkillLevel] = useState(2);
 
+    const goToArticle = () => {
+        window.location.href = "https://www.cnn.com/travel/they-built-a-waterfront-home-in-the-bahamas-then-it-was-destroyed-by-a-hurricane/index.html?difflevel=" + skillLevel;
+    }
+
     const goToFlashCardPage = () => {
         navigate('/flash-card-review');
     }
@@ -71,11 +75,8 @@ const WelcomePage: React.FC = () => {
                     <p className={styles.sampleSentence}>{sampleSentences[(skillLevel-1) * 2]}</p>
                 </div>
                 <div className={styles.btnRow}>
-                    <button className={styles.btnShowFlashcards} onClick={goToFlashCardPage}>
-                        Review my Vocab
-                    </button>
-                    <button className={styles.btnPracticeChat} onClick={goToPracticeChat}>
-                        Let me Practice Speaking
+                    <button className={styles.btnShowFlashcards} onClick={goToArticle}>
+                        Give me something to read
                     </button>
                 </div>
 
