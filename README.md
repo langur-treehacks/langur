@@ -17,7 +17,10 @@
 1. Uses a grounded evaluation metric to measure your performance (LIX scoring algorithm)
 2. Application learns and adapts to individual learner's abilities
 3. Learning of language conveniently incorporated into daily workflow
-4. Reinforced learning of queries words through review quizzes 
+4. Reinforced learning of queries words through review quizzes
+
+![image](https://cdn.discordapp.com/attachments/906212540021895178/1208799395672494151/image.png?ex=65e4992a&is=65d2242a&hm=25af027e439ae07aaa69a885152cb600da6d5374ead0717b527f4e1545abeea8&)
+
 
 # Getting Started:
 ## FrontEnd:
