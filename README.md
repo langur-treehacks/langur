@@ -27,7 +27,7 @@
 
 # Development
 
-This repository hosts the web dashboard of LangUR. The instructions to install and run the [extension](https://github.com/langur-treehacks/langur-ext) and [LLM backend]([extension](https://github.com/langur-treehacks/llm) are in their individual repos.
+This repository hosts the web dashboard of LangUR. The instructions to install and run the [extension](https://github.com/langur-treehacks/langur-ext) and [LLM backend](https://github.com/langur-treehacks/llm) are in their individual repos.
 
 ## Installation
 
@@ -59,8 +59,6 @@ In any instance, Distributed Practice and Practice Testing appear to be the larg
 We often encounter the issue that learning a language is daunting, requiring contiuous effort, where a lot of people simply don't have that time to invest, whereas the practicality of being fluent in languages has a high yield in business returns by eliminating barriers between multinational individuals and corporations. The idea behind LangUR had to critically emphasize the parallel and efficient nature of learning, which other applications failed to consider. Giving users a comfortable experience, automatically determining skill level through a customized LIX Algorithm, and structuring the application to cater to their learning pace was imperative during the building phase.
 
 In conclusion, taking into account human study patterns, the demanding needs of learning a language and daily time constraints, LangUR was built with the mindfulness that dedication is always on the users side, but we can do our job to make it as seamless as possible, accessible, and catered to the users.
-
-![image](https://cdn.discordapp.com/attachments/1201235197425889452/1208780793627934730/image-removebg-preview_4.png?ex=65e487d7&is=65d212d7&hm=33a3b485b70cbf4914dbd1a59de08a405f45b7bd62f43c66538448fbe1d00e1c&)
 
 # Gallery
 
